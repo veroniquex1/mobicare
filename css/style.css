@@ -1,22 +1,22 @@
-body{
-    background-image: url(https://mobicare.co.za/_Webmoduledata/Images/Thumb/R.jpg);
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#container {
-    display:flex;
-    background-color: white;
-    }
-
-nav ul {
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
-    list-style: none;
+    box-sizing: border-box;
 }
-nav li{
-    display: inline-block;
-    margin-left: 15px;
-    padding: 0;
-    }
+
+/*Background image*/
+body{
+    background-image: url(https://mobicare.co.za/_Webmoduledata/Images/Thumb/R.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav-item{
+    font-size: 3 bolder;
+}
+
+a a:hover{
+    color: darkblue;
+}
